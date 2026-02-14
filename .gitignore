@@ -1,0 +1,34 @@
+# Node modules (SKAL ignoreres)
+node_modules/
+
+# TensorFlow.js cache og modeller
+.tfjs/
+*.h5
+*.pb
+saved_model/
+models/
+*.tflite
+
+# Build outputs
+dist/
+build/
+out/
+
+# OS filer
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE filer
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Miljøvariabler og secrets
+.env
+.env.local
+*.key
